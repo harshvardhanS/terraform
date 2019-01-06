@@ -4,7 +4,8 @@ data "aws_route53_zone" "terraform-blue-green" {
 
 resource "aws_route53_record" "terraform-blue-green" {
   zone_id = "${data.aws_route53_zone.terraform-blue-green.zone_id}"
-  name    = "www.devops4you.tk"
+  # name    = "www.devops4you.tk"
+  name    = "v${var.infrastructure_version}.devops4you.tk"
   type    = "A"
 
   alias {

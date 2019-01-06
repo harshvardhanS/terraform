@@ -8,7 +8,7 @@ resource "aws_route_table" "terraform-blue-green-public-rt" {
   }
 
   tags {
-    Name = "terraform-blue-green-public-rt"
+    Name = "terraform-blue-green-public-rt (v${var.infrastructure_version})"
   }
 }
 
