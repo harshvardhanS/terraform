@@ -1,5 +1,5 @@
 data "aws_route53_zone" "terraform-blue-green" {
-  name = "devops4you.tk."
+  name = "devops4you.tk"
 }
 
 resource "aws_route53_record" "terraform-blue-green" {
