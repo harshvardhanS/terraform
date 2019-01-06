@@ -9,7 +9,7 @@ terraform {
         encrypt = true
         bucket = "terraform-bluegreen-bucket"
         region  = "us-east-1"
-        key     = "v1"
+        key     = "v2"
 
     }
 }

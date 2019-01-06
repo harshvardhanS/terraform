@@ -3,7 +3,7 @@ variable "aws_region" {
     default = "us-east-1"
 }
 variable "infrastructure_version" {
-  default = "1"
+  default = "2"
 }
 variable "vpc_id" {
   default = "vpc-0d503165b370f2cf8"
